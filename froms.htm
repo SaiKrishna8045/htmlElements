@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit" method="get">
+      <label for="username"> Username : </label>
+      <input type="text" id="username" name="username" required />
+      <label for="email"> Email :</label>
+      <input type="email" name="email" id="email" required />
+      <label for="gender">Gender :</label>
+      <input type="radio" value="male" selected checked name="gender" />Male
+      <input type="radio" value="femmale" name="gender" />Female
+      <label for="languages">Languages Known : </label>
+      <input type="checkbox" name="lang" value="html" />HTML
+      <input type="checkbox" name="lang" value="css" />CSS
+      <input type="checkbox" name="lang" value="js" />js
+      <input type="checkbox" name="lang" value="python" />python
+      <label for="country">Country</label>
+      <select id="country">
+        <option value="in">INDIA</option>
+        <option value="usa">USA</option>
+        <option value="russia">RUSSIA</option>
+        <option value="aus">AUSTRILA</option>
+      </select>
+      <label> date</label>
+      <input type="date" name="date" id="date" />
+      <input type="color" name="color" id="color" / >
+      <input type="file" />
+      <input type="time" name="" id="" />\
+
+      <input type="tel" name="" id="" />
+      <input type="week" name="" id="" />
+      <input type="datetime" name="" id="" />
+      <input type="datetime-local" name="" id="" />
+      <input type="month" name="" id="" />
+      <input type="range" name="" id="" />
+      <input type="number" name="" id="" />
+      <!-- <input type="" name="" id=""> -->
+      <meter value="0.6" min="0" max="1"></meter>
+      <input type="search" name="" id="" />
+      <button type="submit">Submit</button>
+    </form>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language used to create web pages.</dd>
+
+      <dt>CSS</dt>
+      <dd>Stylesheet language used to style HTML elements.</dd>
+
+      <dt>JavaScript</dt>
+      <dd>Programming language used to make web pages interactive.</dd>
+    </dl>
+  </body>
+</html>
